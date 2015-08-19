@@ -1,0 +1,22 @@
+/*
+
+* Иконки												/aq-icons.css
+
+** Icon													/.aq_icon
+
+===================================================================*/
+
+/*-------------------------------------------------------------------
+[ ** Icon												/.aq_icon ]
+*/
+.aq_icon {
+	position: relative;
+	display: inline-block;
+
+	&.m_logo_main {
+		width: 345px;
+		height: 61px;
+		background: inline('../../../public/img/aqvafarma-logo-main.svg') center top no-repeat;
+	}
+}
+

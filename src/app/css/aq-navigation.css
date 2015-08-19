@@ -1,0 +1,56 @@
+/*
+
+* Навигация												/aq-navigation.css
+
+** Верхняя навигация									/.aq_top_nav
+
+===================================================================*/
+
+/*-------------------------------------------------------------------
+[ ** Верхняя навигация									/.aq_top_nav ]
+*/
+.aq_top_nav {
+	display: inline-block;
+
+
+}
+
+.aq_top_nav_list {
+	display: inline-block;
+	margin-left: 60px;
+}
+
+.aq_top_nav_item {
+	display: inline-block;
+	float: left;
+	margin: 0 12px;
+
+	a {
+		color: $color-white !important;
+
+		&:hover {
+			color: $color-white !important;
+		}
+	}
+
+	&.m_active {
+		color: $color-blue;
+	}
+}
+
+.aq_aux_nav {
+	float: right;
+	text-align: right;
+	line-height: 24px;
+
+}
+
+.aq_aux_nav_item {
+	a {
+		color: $color-white !important;
+	}
+
+	&.m_active {
+		color: $color-blue;
+	}
+}

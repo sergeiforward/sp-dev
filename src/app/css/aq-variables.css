@@ -1,0 +1,51 @@
+/*
+
+* Переменные											/aq-typography.css
+
+** Цвета
+** Типографика
+
+===================================================================*/
+
+/*-------------------------------------------------------------------
+[ ** Цвета ]
+*/
+$color-white:						#fff;
+
+$color-blue:						#67CFE3;
+$color-red:							#red;
+$color-green:						#green;
+
+$color-gray:						#C2C5C8;
+$color-gray-light:					#D8D8D8;
+$color-gray-dark:					#727272;
+
+$color-dark:						#333E48;
+
+$color-info:						$color-blue;
+
+$font-color: 						$color-dark;
+$link-color:						$color-blue;
+
+$bg-color:							#E9F3FF;		
+/*-------------------------------------------------------------------
+[ ** Типографика ]
+*/
+
+$font-size-small:					14px;
+$line-height-small:					16px;
+
+$font-size:							16px;
+$line-height:						24px;
+
+$h1-font-size:						36px;
+$h1-line-height:					54px;
+
+$h2-font-size:						30px;
+$h2-line-height:					44px;
+
+$h3-font-size:						24px;
+$h3-line-height:					36px;
+
+$h4-font-size:						18px;
+$h4-line-height:					26px;

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5022aadd8a7b0a77875fb6b2ba8a8b80',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '84c914c59df5e05e17ac99795c50ded3',
+  'native_key' => 'manager_login_url_alternate',
+  'object' => '{"key":"manager_login_url_alternate","value":"","xtype":"textfield","namespace":"core","area":"authentication","editedon":null}',
+);

@@ -1,0 +1,33 @@
+/*
+
+* Линия													/aq-line.css
+
+** Линия												/.aq_line
+
+===================================================================*/
+
+/*-------------------------------------------------------------------
+[ ** Линия												/.aq_line ]
+*/
+.aq_line {
+	display: block;
+	border-bottom-style: solid;
+	border-bottom-color: $color-gray-light;
+	border-bottom-width: 1px;
+
+	&.m_gray {
+		border-bottom-color: $color-gray;
+	}
+
+	&.m_blue {
+		border-bottom-color: $color-blue;
+	}
+
+	&.m_gray_dark {
+		border-bottom-color: $color-gray-dark;
+	}
+
+	&.m_3 {
+		border-bottom-width: 3px;
+	}
+}

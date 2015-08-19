@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c6d2be49ae85c8f52cc4782f8a1b8802',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => 'a8dd1327fdd11f8fca1a2dbd7f3fc1d0',
+  'native_key' => 'OnContextFormPrerender',
+  'object' => '{"name":"OnContextFormPrerender","service":2,"groupname":"Contexts"}',
+);

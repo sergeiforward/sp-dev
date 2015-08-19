@@ -1,0 +1,42 @@
+/*
+
+* Скаффолдинг											/aq-scaffolding.css
+
+** Скаффолдинг
+
+===================================================================*/
+
+/*-------------------------------------------------------------------
+[ ** Скаффолдинг ]
+*/
+* {
+	box-sizing: border-box;
+	-webkit-backface-visibility: hidden;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: $bg-color;
+	color: $font-color;
+	font-family: 'Roboto Light', sans-serif;
+	font-size: $font-size;
+	line-height: $line-height;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+	color: $link-color;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}

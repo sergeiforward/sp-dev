@@ -1,0 +1,108 @@
+/*
+
+* Сетка													/aq-grid.css
+
+** Строка												/.aq_row
+** Столбец												/.aq_col_<NUMBER_OF_MODULES>
+
+===================================================================*/
+
+/*-------------------------------------------------------------------
+[ ** Строка												/.aq_row ]
+*/
+.aq_row {
+	display: block;
+
+	&.m_6 {
+		margin-right: -6px;
+		margin-left: -6px;
+
+		.aq_col_1, .aq_col_2, .aq_col_3, .aq_col_4, .aq_col_5, .aq_col_6, .aq_col_7, .aq_col_8, .aq_col_10, .aq_col_11, .aq_col_12 {
+			padding: 0 6px;
+		}
+	}
+
+	&.m_12 {
+		margin-right: -12px;
+		margin-left: -12px;
+
+		.aq_col_1, .aq_col_2, .aq_col_3, .aq_col_4, .aq_col_5, .aq_col_6, .aq_col_7, .aq_col_8, .aq_col_10, .aq_col_11, .aq_col_12 {
+			padding: 0 12px;
+		}
+	}
+
+	&.m_18 {
+		margin-right: -18px;
+		margin-left: -18px;
+
+		.aq_col_1, .aq_col_2, .aq_col_3, .aq_col_4, .aq_col_5, .aq_col_6, .aq_col_7, .aq_col_8, .aq_col_10, .aq_col_11, .aq_col_12 {
+			padding: 0 18px;
+		}
+	}
+
+	&.m_24 {
+		margin-right: -24px;
+		margin-left: -24px;
+
+		.aq_col_1, .aq_col_2, .aq_col_3, .aq_col_4, .aq_col_5, .aq_col_6, .aq_col_7, .aq_col_8, .aq_col_10, .aq_col_11, .aq_col_12 {
+			padding: 0 24px;
+		}
+	}
+}
+
+/*-------------------------------------------------------------------
+[ ** Столбец											/.aq_col_<NUMBER_OF_MODULES> ]
+*/
+.aq_col_1, .aq_col_2, .aq_col_3, .aq_col_4, .aq_col_5, .aq_col_6, .aq_col_7, .aq_col_8, .aq_col_10, .aq_col_11, .aq_col_12 {
+	position: relative;
+	min-height: 1px;
+	float: left;
+}
+
+.aq_col_1 {
+	width: 8.33333%;
+}
+
+.aq_col_2 {
+	width: 16.66666%;
+}
+
+.aq_col_3 {
+	width: 25%;
+}
+
+.aq_col_4 {
+	width: 33.33333%;
+}
+
+.aq_col_5 {
+	width: 41.66666%;
+}
+
+.aq_col_6 {
+	width: 50%;
+}
+
+.aq_col_7 {
+	width: 58.33333%;
+}
+
+.aq_col_8 {
+	width: 66.66666%;
+}
+
+.aq_col_9 {
+	width: 75%;
+}
+
+.aq_col_10 {
+	width: 83.33333%;
+}
+
+.aq_col_11 {
+	width: 91.66666%;
+}
+
+.aq_col_12 {
+	width: 100%;
+}

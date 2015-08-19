@@ -1,0 +1,31 @@
+/*
+
+* Контролы												/aq-form-controls.css
+
+** Обычные контролы										/.aq_form_control
+
+===================================================================*/
+
+/*-------------------------------------------------------------------
+[ ** Обычные контролы									/.aq_for_control ]
+*/
+.aq_form_control {
+	display: inline-block;
+	width: 100%;
+	line-height: $line-height;
+	font-size: $font-size;
+	color: $color-dark;
+	border: none;
+	background-color: transparent;
+	padding: 0px;
+	margin-top: -1px;
+	outline: none;
+
+	transition: box-shadow .15s ease-in-out;
+
+	box-shadow: inset $color-gray-light 0 -1px 0px; 
+
+	&:focus {
+		box-shadow: inset $color-blue 0 -2px 0px; 
+	}
+}

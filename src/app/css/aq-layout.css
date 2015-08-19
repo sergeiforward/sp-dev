@@ -1,0 +1,47 @@
+/*
+
+* Лэйаут												/aq-layout.css
+
+** Общий контейнер										/.aq_wrapper
+
+===================================================================*/
+
+/*-------------------------------------------------------------------
+[ ** Общий контейнер									/.aq_wrapper ]
+*/
+.aq_wrapper {
+	position: relative;
+	display: block;
+	width: 100%;
+
+	min-height: 100%;
+    height: auto !important;
+    height: 100%;
+
+}
+
+.aq_content {
+	display: block;
+	position: relative;
+	padding-bottom: 240px;
+}
+
+.aq_header {
+	background-color: $color-dark;
+}
+
+.aq_footer {
+	margin-top: -200px;
+}
+
+.aq_container {
+	display: block;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-left: auto;
+	margin-right: auto;
+
+	&.m_fixed {
+		max-width: 1024px;
+	}
+}

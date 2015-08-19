@@ -1,0 +1,23 @@
+/*
+
+* Миксины												/aq-mixins.css
+
+** Clearfix												/@clearfix
+
+===================================================================*/
+
+/*-------------------------------------------------------------------
+[ ** Clearfix											/@clearfix ]
+*/
+@define-mixin clearfix {
+	opacity: 1;
+	&::after {
+		content: ' ';
+	    display: block;
+	    height: 0;
+	    clear: both;
+	   visibility: hidden;
+
+	}
+    
+}

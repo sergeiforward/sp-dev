@@ -1,0 +1,27 @@
+/*
+
+* Панель												/aq-panel.css
+
+** Панель												/.aq_panel
+
+===================================================================*/
+
+/*-------------------------------------------------------------------
+[ ** Панель												/.aq_panel ]
+*/
+.aq_panel {
+	background-color: $color-white;
+	border-radius: 4px;
+
+	&.m_padding_24 {
+		padding: 24px;
+	}
+
+	&.m_padding_12 {
+		padding: 12px;
+	}
+
+	&.m_padding_6 {
+		padding: 6px;
+	}
+}

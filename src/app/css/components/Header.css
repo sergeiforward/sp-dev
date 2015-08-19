@@ -1,0 +1,60 @@
+/*
+
+* Хедер													/components/Header.css
+
+===================================================================*/
+.Header_info {
+	margin-left: 72px;
+}
+
+a.Header_recall, .Header_recall {
+	display: inline-block;
+	position: relative;
+	color: $color-white;
+	margin-top: 12px;
+	
+	&::after {
+		display: inline-block;
+		width: 100%;
+		position: absolute;
+		bottom: 3px;
+		left: 0px;
+		height: 1px;
+		border-bottom: $color-white dashed 1px;
+		content: ' ';
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&.m_active {
+		color: $color-blue;
+
+		&::after {
+			display: none;
+		}
+	}
+}
+
+
+a.Header_cart {
+	display: inline-block;
+	margin-top: 12px;
+	color: $color-white;
+	margin-left: 100px;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.Header_phone {
+	display: inline-block;
+	float: right;
+	font-size: 24px;
+	color: $color-white;
+	margin-top: 17px;
+
+
+}

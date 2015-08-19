@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '59ee28cd5015cfaa71a1ebfad7623f6e',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '4083d3d5e53d394e7a2981e623b4609e',
+  'native_key' => 'tvs_below_content',
+  'object' => '{"key":"tvs_below_content","value":0,"xtype":"combo-boolean","namespace":"core","area":"manager","editedon":null}',
+);

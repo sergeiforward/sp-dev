@@ -1,0 +1,52 @@
+/*
+
+* Типографика											/aq-typography.css
+
+** Заголовки											/.aq_h1...
+** Параграф												/.aq_p
+
+===================================================================*/
+
+/*-------------------------------------------------------------------
+[ ** Заголовки											/.aq_h1... ]
+*/
+h1, h2, h3, h4,
+.aq_h1, .aq_h2, .aq_h3, .aq_h4 {
+	margin: 0;
+}
+
+h1,
+.aq_h1 {
+	font-size: $h1-font-size;
+	line-height: $h1-line-height;
+}
+
+h2,
+.aq_h2 {
+	font-size: $h2-font-size;
+	line-height: $h2-line-height;
+}
+
+h3,
+.aq_h3 {
+	font-size: $h3-font-size; 
+	line-height: $h3-line-height;
+}
+
+h4,
+.aq_h4 {
+	font-size: $h4-font-size;
+	line-height: $h4-line-height;
+}
+
+
+/*-------------------------------------------------------------------
+[ ** Параграф											/.aq_p ]
+*/
+
+p,
+.aq_p {
+	font-size: $font-size;
+	line-height: $line-height;
+	margin: 0 0 $line-height 0;
+}

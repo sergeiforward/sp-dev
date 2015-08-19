@@ -1,0 +1,36 @@
+/*
+
+* Формы													/aq-form.css
+
+** Форма												/.aq_form
+
+===================================================================*/
+
+/*-------------------------------------------------------------------
+[ ** Форма												/.aq_form ]
+*/
+.aq_form {
+	display: block;
+	width: 100%;
+}
+
+.aq_form_label {
+	font-size: $font-size;
+	line-height: $line-height;
+	display: inline-block;
+	width: 100%;
+	font-family: 'Roboto regular';
+}
+
+.aq_form_field {
+	display: block;
+	width: 100%;
+	margin-bottom: 24px;
+	position: relative;
+
+}
+
+.aq_form_helper {
+	font-size: $font-size-small;
+	line-height: $line-height-small;
+}

@@ -1,0 +1,124 @@
+/*
+
+* Хелперы												/aq-helpers.css
+
+** Text
+** Clearfix												/.h_clearfix
+** Margins
+** Position
+** Displaying
+** Floating
+
+===================================================================*/
+/*-------------------------------------------------------------------
+[ ** Text ]
+*/
+.h_text_small {
+	font-size: 85%;
+}
+
+.h_text_right {
+	text-align: right;
+}
+
+.h_text_left {
+	text-align: left;
+}
+
+.h_text_center {
+	text-align: center;
+}
+
+/*-------------------------------------------------------------------
+[ ** Clearfix											/.h_clearfix ]
+*/
+.h_clearfix {
+	&::after {
+		content: ' ';
+	    display: block;
+	    height: 0;
+	    clear: both;
+	   visibility: hidden;
+	}
+}
+
+/*-------------------------------------------------------------------
+[ ** Margins											/.h_m_b_ ]
+*/
+.h_m_t_6 {
+	margin-top: 6px;
+}
+
+.h_m_b_6 {
+	margin-bottom: 6px;
+}
+
+.h_m_tb_6 {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.h_m_t_12 {
+	margin-top: 12px;
+}
+
+.h_m_b_12 {
+	margin-bottom: 12px;
+}
+
+.h_m_tb_12 {
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+.h_m_t_18 {
+	margin-top: 12px;
+}
+
+.h_m_b_18 {
+	margin-bottom: 12px;
+}
+
+.h_m_tb_18 {
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+.h_m_t_24 {
+	margin-top: 24px;
+}
+
+.h_m_b_24 {
+	margin-bottom: 24px;
+}
+
+.h_m_tb_24 {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+/*-------------------------------------------------------------------
+[ ** Position ]
+*/
+.h_relative {
+	position: relative;
+}
+
+/*-------------------------------------------------------------------
+[ ** Displaying ]
+*/
+.h_inline_block {
+	display: inline-block;
+}
+
+/*-------------------------------------------------------------------
+[ ** Floating ]
+*/
+.h_float_left {
+	float: left;
+}
+
+.h_float_right {
+	float: right;
+}
+
