@@ -368,7 +368,16 @@ var SHK = {
                 
             }
             ,error: function(jqXHR, textStatus, errorThrown){
-                if(typeof(console)!='undefined') console.log(textStatus+' '+errorThrown);
+                //if(typeof(console)!='undefined') console.log(textStatus+' '+errorThrown);
+                console.log(jqXHR)
+                console.log('============================')
+                console.log('============================')
+                console.log(textStatus)
+                console.log('============================')
+                console.log('============================')
+                console.log(errorThrown)
+                console.log('============================')
+                console.log('============================')
             }
         });
     },

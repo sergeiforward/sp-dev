@@ -37,7 +37,20 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-.gitignore
+
+# Front-end #
+#######################
+node_modules/
 node_modules
-core/cache
-cache
+.htaccess
+src/libs/
+src/libs
+
+# MODx #
+#######################
+core/config/config_sp.inc.php
+connectors_sp/config.core.php
+manager_sp/config.core.php
+core/cache/
+cache/
+setup/

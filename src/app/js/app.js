@@ -8,8 +8,6 @@ angular.module('SpApp', [] )
 			Login: 'Вход',
 		};
 
-		
-
 		$scope.loginWork = function (e, action) {
 			console.log(e)
 			if ( e ) {
@@ -40,7 +38,7 @@ angular.module('SpApp', [] )
 						else window.location.href = window.location.pathname;
 	                }
 	                
-	                $element.find('#LoginFormWrapper').html($compile(data)($scope));
+	                $element.find('#LoginFormWrapper').html($compile(data)($scope)); 
 	       		
 	        	}
 	    	});
